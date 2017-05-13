@@ -1,0 +1,21 @@
+[ tilesheetFilename ]
+[ numberOfSprites ] [ numberOfFrames ]
+
+tileNumber tileCollision firstFrame numberOfFrames delay animFlags
+tileNumber tileCollision firstFrame numberOfFrames delay animFlags
+.. etc.
+
+==================
+= collisionFlags =
+=====================
+ 0 - No collision
+ 1 - Collision
+=====================
+
+=============
+= animFlags =
+===================================
+ 0 - No animation
+ 1 - Loop Normally
+ 2 - Oscillate (ex. 0,1,2,1,0...)
+===================================

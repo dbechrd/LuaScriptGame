@@ -1,0 +1,8 @@
+Ben
+scripts\characters\ben.lua
+gfx\characters\ben.png
+16 32 4 16 32 32 2
+00 00 04 150 0
+01 04 04 150 0
+02 08 04 150 0
+03 12 04 150 0

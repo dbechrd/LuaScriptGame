@@ -1,0 +1,20 @@
+[ scriptFilename ]
+[ tilesheetFilename ]
+[ Width ] [ Height ] [ numberOfSprites ] [ numberOfFrames ] [ WalkWidth ] [ WalkHeight ] [ WalkSpeed ]
+
+spriteNumber firstFrame numberOfFrames delay animFlags //UP
+spriteNumber firstFrame numberOfFrames delay animFlags //DOWN
+spriteNumber firstFrame numberOfFrames delay animFlags //LEFT
+spriteNumber firstFrame numberOfFrames delay animFlags //RIGHT
+.. etc.
+
+=============
+= animFlags =
+====================================
+ 0 - No animation
+ 1 - Loop Normally
+ 2 - Oscillate (ex. 0,1,2,1,0...)
+====================================
+
+NOTE: The WalkWidth and WalkHeight settings tell the engine
+      how far the character should move (in pixels) when walking.

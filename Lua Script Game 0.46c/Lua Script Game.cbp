@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Lua Script Game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Pkg Sources\;Pkg Headers\;" />
+		<Build>
+			<Target title="default">
+				<Option output="Lua Script Game" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Linker>
+			<Add option="-lmingw32 -lSDLmain -lSDL -lSDL_image -lSDL_ttf" />
+			<Add library="C:\Program Files\CodeBlocks\MinGW\lib\liblua5.1.a" />
+			<Add library="C:\Program Files\CodeBlocks\MinGW\lib\tolua++.lib" />
+		</Linker>
+		<Unit filename="AnimationData.cpp" />
+		<Unit filename="AnimationData.h" />
+		<Unit filename="Camera.cpp" />
+		<Unit filename="Camera.h" />
+		<Unit filename="Character.cpp" />
+		<Unit filename="Character.h" />
+		<Unit filename="CharacterEngine.cpp" />
+		<Unit filename="CharacterEngine.h" />
+		<Unit filename="Font.cpp" />
+		<Unit filename="Font.h" />
+		<Unit filename="GameEngine.cpp" />
+		<Unit filename="GameEngine.h" />
+		<Unit filename="Layer.cpp" />
+		<Unit filename="Layer.h" />
+		<Unit filename="Level.cpp" />
+		<Unit filename="Level.h" />
+		<Unit filename="Main.cpp" />
+		<Unit filename="Object.cpp" />
+		<Unit filename="Object.h" />
+		<Unit filename="ObjectEngine.cpp" />
+		<Unit filename="ObjectEngine.h" />
+		<Unit filename="RenderEngine.cpp" />
+		<Unit filename="RenderEngine.h" />
+		<Unit filename="ScriptEngine.cpp" />
+		<Unit filename="ScriptEngine.h" />
+		<Unit filename="ScriptFuncs.cpp" />
+		<Unit filename="ScriptFuncs.h" />
+		<Unit filename="TextEngine.cpp" />
+		<Unit filename="TextEngine.h" />
+		<Unit filename="Tile.cpp" />
+		<Unit filename="Tile.h" />
+		<Unit filename="Tilesheet.cpp" />
+		<Unit filename="Tilesheet.h" />
+		<Unit filename="pkgCamera.cpp">
+			<Option virtualFolder="Pkg Sources\" />
+		</Unit>
+		<Unit filename="pkgCamera.h">
+			<Option virtualFolder="Pkg Headers\" />
+		</Unit>
+		<Unit filename="pkgCharacter.cpp">
+			<Option virtualFolder="Pkg Sources\" />
+		</Unit>
+		<Unit filename="pkgCharacter.h">
+			<Option virtualFolder="Pkg Headers\" />
+		</Unit>
+		<Unit filename="pkgGameEngine.cpp">
+			<Option virtualFolder="Pkg Sources\" />
+		</Unit>
+		<Unit filename="pkgGameEngine.h">
+			<Option virtualFolder="Pkg Headers\" />
+		</Unit>
+		<Unit filename="pkgLevel.cpp">
+			<Option virtualFolder="Pkg Sources\" />
+		</Unit>
+		<Unit filename="pkgLevel.h">
+			<Option virtualFolder="Pkg Headers\" />
+		</Unit>
+		<Unit filename="pkgObject.cpp">
+			<Option virtualFolder="Pkg Sources\" />
+		</Unit>
+		<Unit filename="pkgObject.h">
+			<Option virtualFolder="Pkg Headers\" />
+		</Unit>
+		<Unit filename="pkgTextEngine.cpp">
+			<Option virtualFolder="Pkg Sources\" />
+		</Unit>
+		<Unit filename="pkgTextEngine.h">
+			<Option virtualFolder="Pkg Headers\" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

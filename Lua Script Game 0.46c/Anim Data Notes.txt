@@ -1,0 +1,55 @@
+ANIMATION:
+
+   Native:
+      currentFrame
+      delay
+      animate
+      oscillate
+
+      GetCurrentFrame()
+      Set ..
+      GetDelay()
+      Set ..
+      GetAnimate()
+      Set ..
+      GetOscillate()
+      Set ..
+
+TILE:
+
+   Inherited (From Animation):
+      currentFrame
+      delay
+      animate
+      oscillate
+
+   Native:
+      SDL_Rect rect
+      int sprite
+
+      GetSprite()
+      Set ..
+      GetX()
+      GetY()
+      Update()
+      Draw()
+
+ANIMATION DATA:
+
+   Native:
+      sprite
+      startFrames
+      totalFrames
+
+      StartFrame()
+      NextFrame()
+
+TILESHEET:
+
+   Native:
+      tileSprites
+      tileFrames
+      vector of Animation Data
+
+      GetStartFrame() //Via Animation Data
+      GetNextFrame() //Via Animation Data

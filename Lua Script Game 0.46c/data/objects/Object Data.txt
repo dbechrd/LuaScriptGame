@@ -1,0 +1,13 @@
+[ scriptFilename ]
+[ numberOfObjects ] [ objectWidth ] [ objectHeight ]
+
+objNumber tileNumber collision name
+objNumber tileNumber collision name
+.. etc.
+
+==================
+= collisionFlags =
+=====================
+ 0 - No collision
+ 1 - Collision
+=====================

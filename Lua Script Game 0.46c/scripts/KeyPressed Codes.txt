@@ -1,0 +1,69 @@
+=========================
+= Lua Script Game v0.31 =
+=     7 April, 2009     =
+==============================================================
+
+ The KeyPressed variable is used to provide the scripter with
+ a way to tell which key is being pressed, if any.  The
+ following codes are used to check against this variable.
+
+==============================================================
+
+===========
+= Syntax: =
+=======================================
+=                                     =
+=   If KeyPressed == "keycode" Then   =
+=      --Perform certain actions      =
+=   End                               =
+=                                     =
+=======================================
+
+Example Usage:
+--------------
+
+If KeyPressed == "f" Then
+   --The "f" key was pressed!
+   --Perform specific actions
+End
+
+##############################################################
+
+Here is a list of all of the available codes:
+---------------------------------------------
+
+Alpha-Numeric keys (a-z;0-9) are obvious:
+   "a", "b", etc.
+   "0", "1", etc.
+
+Function keys (F1 - F12) similarly:
+   "F1", "F2", etc.
+
+Arrow keys (Up, Down, Left, and Right):
+   "up", "down", "left", and "right" respectively
+
+Other useful keys:
+
+   Return (Enter): "return"
+
+   Backspace: "backspace"
+
+   Escape (Esc): "esc"
+
+   Left Shift: "lshift"
+
+   Right Shift: "rshift"
+
+   Left Control (Ctrl): "lctrl"
+
+   Right Control (Ctrl): "rctrl"
+
+   Left Alternate (Alt): "lalt"
+
+   Right Alternate (Alt): "ralt"
+
+##############################################################
+
+Copyright 2009 - Dan Bechard (dandymcgee123@yahoo.com)
+
+##############################################################

@@ -1,0 +1,87 @@
+================================================================
+| LSG v0.31                                                    |
+================================================================
+| Important Note:                                              |
+|    This class contains static member variables and functions |
+|    which may be accessed before a class object is declared.  |
+|______________________________________________________________|
+
+Instance()
+   - [STATIC] Returns pointer to the Game Engine
+
+SetQuit()
+   - [STATIC] Sets quit to true
+
+Quit()
+   - [STATIC] Returns boolean value for quit
+
+HandleInput()
+   - Check for input and handle it appropriately
+
+Sleep( duration as interger )
+   - Pause engine for duration in milliseconds (1000 = 1 second)
+
+Update()
+   - Update the screen
+
+LoadLevel("filename")
+   - Loads given map file
+
+DrawLevel()
+   - Draws currently loaded level
+
+======
+Level
+======
+
+new("filename")
+   - [STATIC] Creates new Level object and returns pointer to it
+
+GetTileSprites()
+   - Returns number of tile sprites in the loaded tilesheet as integer
+
+ToggleLayer(layer as integer)
+   - Toggles given layer's visibility
+
+Draw()
+   - Draws level
+
+GetTileSheet()
+   - Returns tilesheet's index as integer
+
+GetTileNumber(x as integer, y as integer)
+   - [DO NOT USE] Deprecated function, has no use
+
+GetTileCoords(x as integer, y as integer)
+   - [DO NOT USE] Internal function, has no scripting use
+
+SetTileSprite(x as integer, y as integer, sprite as integer)
+   - Sets tile at given screen coordinates to given sprite
+
+GetTileSprite(x as ingeger, y as integer)
+   - Returns sprite of tile at given screen coordinates as integer
+
+SetTileCursor(x as integer, y as integer, sprite as integer)
+   - [DO NOT USE] Deprecated function, has no use
+
+Save()
+   - Saves any changes to the map (WARNING: Overwrites original map)
+
+==========
+Character
+==========
+
+new("filename")
+   - [STATIC] Creates new Character object and returns pointer to it
+
+Move(x as integer, y as integer)
+   - Moves character to given x, y coordinates
+
+Draw()
+   - Draws character
+
+##############################################################
+
+Copyright 2009 - Dan Bechard (dandymcgee123@yahoo.com)
+
+##############################################################

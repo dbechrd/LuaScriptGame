@@ -1,0 +1,109 @@
+someone accessed (Camera Instance)!
+Render Engine Initialized
+someone accessed (Camera Instance)!
+Camera Initialized
+Text Engine Initialized
+Script Engine Initialized
+Config Stream is NULL
+Game Engine Initialized
+Scripts Registered
+maps\town.map
+someone accessed (Camera Instance)!
+totalObjects: 10
+objWidth: 32
+objHeight: 32
+objNumber: 0
+tileNumber: 37
+objCol: 0
+objName: Green Apple
+objNumber: 1
+tileNumber: 38
+objCol: 0
+objName: Red Apple
+objNumber: 2
+tileNumber: 39
+objCol: 1
+objName: Blue Apple
+objNumber: 3
+tileNumber: 40
+objCol: 0
+objName: Yellow Apple
+objNumber: 4
+tileNumber: 41
+objCol: 0
+objName: Orange Apple
+objNumber: 5
+tileNumber: 42
+objCol: 1
+objName: BGSign
+objNumber: 6
+tileNumber: 43
+objCol: 1
+objName: Just A Sign
+objNumber: 7
+tileNumber: -1
+objCol: 1
+objName: Test Object
+objNumber: 8
+tileNumber: 44
+objCol: 1
+objName: Closed Chest
+objNumber: 9
+tileNumber: 43
+objCol: 1
+objName: The Sign That Hates Ben
+Level Width: 960     Level Height: 640
+levelLayers: 3
+Tile Width: 32     Tile Height: 32
+Tile Sprites: 46
+someone accessed (Camera Instance)!
+Layer Created
+someone accessed (Camera Instance)!
+Layer Created
+someone accessed (Camera Instance)!
+Layer Created
+Loading Objects
+GetObjName: 2
+iter->second: Blue Apple
+OBJNAME: Blue Apple
+GetObjName: 9
+iter->second: The Sign That Hates Ben
+OBJNAME: The Sign That Hates Ben
+GetObjName: 5
+iter->second: BGSign
+OBJNAME: BGSign
+GetObjName: 6
+iter->second: Just A Sign
+OBJNAME: Just A Sign
+GetObjName: 3
+iter->second: Yellow Apple
+OBJNAME: Yellow Apple
+GetObjName: 4
+iter->second: Orange Apple
+OBJNAME: Orange Apple
+GetObjName: 8
+iter->second: Closed Chest
+OBJNAME: Closed Chest
+GetObjName: 0
+iter->second: Green Apple
+OBJNAME: Green Apple
+GetObjName: 1
+iter->second: Red Apple
+OBJNAME: Red Apple
+GetObjName: 7
+iter->second: Test Object
+OBJNAME: Test Object
+Level Created
+Character Created
+Character Created
+Terminating Application
+Font Freed
+Terminating Text Engine
+Layer Deleted
+Layer Deleted
+Layer Deleted
+Level: Layers Deleted
+Level: Objects Deleted
+Level Deleted
+Terminating Game Engine
+Terminating Render Engine

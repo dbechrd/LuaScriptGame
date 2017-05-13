@@ -1,0 +1,11 @@
+[ Tile Data Filename ]
+[ Object Data Filename ]
+[ Width ] [ Height ] [ Layers ] [ TileWidth ] [ TileHeight ] -1 
+_____________________
+[                   ]
+[  Tile Data Layer  ]
+[___________________]
+_____________________
+[                   ]
+[ Object Data Layer ]
+[___________________]

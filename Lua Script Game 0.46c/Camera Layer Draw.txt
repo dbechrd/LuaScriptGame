@@ -1,0 +1,17 @@
+int Layer::Draw()
+{
+    int xAdd = (camera.x) / tileWidth;
+    int yAdd = (camera.y) / tileHeight;
+    int xMax = ((camera.x + camera.w) / tileWidth) + 1;
+    int yMax = ((camera.y + camera.h) / tileHeight) + 1;
+
+    for( int j = 0; j < (camera.w / tileWidth) + 1; j++ )
+    {
+        for( int k = 0; k < (camera.h / tileHeight) + 1; k++ )
+        {
+            if( j + xAdd >= 0 && j + xAdd < xMax && j + xAdd < levelWidth / tileWidth && k + yAdd >= 0 && k + yAdd < yMax && k + yAdd < levelHeight / tileHeight ){
+                tileData[j + xAdd][k + yAdd]->Draw();
+            }
+        }
+    }
+}

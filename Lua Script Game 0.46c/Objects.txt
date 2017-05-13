@@ -1,0 +1,5 @@
+Objects have worldx and worldy coords.
+
+Use proximity list for collision detection.
+
+Objects initially loaded from map layer.

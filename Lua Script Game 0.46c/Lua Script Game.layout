@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="default" />
+	<File name="AnimationData.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="767" topLine="12" />
+	</File>
+	<File name="AnimationData.h" open="0" top="0" tabpos="17">
+		<Cursor position="224" topLine="0" />
+	</File>
+	<File name="Camera.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="2326" topLine="0" />
+	</File>
+	<File name="Camera.h" open="0" top="0" tabpos="4">
+		<Cursor position="228" topLine="0" />
+	</File>
+	<File name="Character.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="16300" topLine="513" />
+	</File>
+	<File name="Character.h" open="0" top="0" tabpos="2">
+		<Cursor position="1774" topLine="0" />
+	</File>
+	<File name="CharacterEngine.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="87" topLine="0" />
+	</File>
+	<File name="CharacterEngine.h" open="0" top="0" tabpos="0">
+		<Cursor position="308" topLine="0" />
+	</File>
+	<File name="Font.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="150" topLine="0" />
+	</File>
+	<File name="Font.h" open="0" top="0" tabpos="11">
+		<Cursor position="174" topLine="0" />
+	</File>
+	<File name="GameEngine.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="1705" topLine="59" />
+	</File>
+	<File name="GameEngine.h" open="1" top="1" tabpos="6">
+		<Cursor position="354" topLine="6" />
+	</File>
+	<File name="Layer.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="957" topLine="20" />
+	</File>
+	<File name="Layer.h" open="0" top="0" tabpos="1">
+		<Cursor position="657" topLine="0" />
+	</File>
+	<File name="Level.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="11751" topLine="455" />
+	</File>
+	<File name="Level.h" open="0" top="0" tabpos="3">
+		<Cursor position="685" topLine="6" />
+	</File>
+	<File name="Main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="4380" topLine="42" />
+	</File>
+	<File name="Object.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="549" topLine="0" />
+	</File>
+	<File name="Object.h" open="0" top="0" tabpos="5">
+		<Cursor position="595" topLine="3" />
+	</File>
+	<File name="ObjectEngine.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="982" topLine="27" />
+	</File>
+	<File name="ObjectEngine.h" open="0" top="0" tabpos="7">
+		<Cursor position="1210" topLine="9" />
+	</File>
+	<File name="RenderEngine.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="813" topLine="24" />
+	</File>
+	<File name="RenderEngine.h" open="1" top="0" tabpos="5">
+		<Cursor position="200" topLine="2" />
+	</File>
+	<File name="ScriptEngine.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1350" topLine="37" />
+	</File>
+	<File name="ScriptEngine.h" open="0" top="0" tabpos="2">
+		<Cursor position="183" topLine="0" />
+	</File>
+	<File name="ScriptFuncs.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="245" topLine="0" />
+	</File>
+	<File name="ScriptFuncs.h" open="0" top="0" tabpos="6">
+		<Cursor position="245" topLine="0" />
+	</File>
+	<File name="TextEngine.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="2736" topLine="55" />
+	</File>
+	<File name="TextEngine.h" open="0" top="0" tabpos="8">
+		<Cursor position="1629" topLine="58" />
+	</File>
+	<File name="Tile.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="309" topLine="0" />
+	</File>
+	<File name="Tile.h" open="0" top="0" tabpos="13">
+		<Cursor position="471" topLine="0" />
+	</File>
+	<File name="Tilesheet.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="233" topLine="0" />
+	</File>
+	<File name="Tilesheet.h" open="0" top="0" tabpos="15">
+		<Cursor position="414" topLine="0" />
+	</File>
+	<File name="pkgCamera.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="240" topLine="0" />
+	</File>
+	<File name="pkgCamera.h" open="0" top="0" tabpos="0">
+		<Cursor position="122" topLine="0" />
+	</File>
+	<File name="pkgCharacter.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="10347" topLine="354" />
+	</File>
+	<File name="pkgCharacter.h" open="0" top="0" tabpos="20">
+		<Cursor position="210" topLine="0" />
+	</File>
+	<File name="pkgGameEngine.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="10490" topLine="374" />
+	</File>
+	<File name="pkgGameEngine.h" open="0" top="0" tabpos="23">
+		<Cursor position="126" topLine="0" />
+	</File>
+	<File name="pkgLevel.cpp" open="0" top="0" tabpos="24">
+		<Cursor position="213" topLine="0" />
+	</File>
+	<File name="pkgLevel.h" open="0" top="0" tabpos="25">
+		<Cursor position="202" topLine="0" />
+	</File>
+	<File name="pkgObject.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="194" topLine="314" />
+	</File>
+	<File name="pkgObject.h" open="0" top="0" tabpos="0">
+		<Cursor position="99" topLine="0" />
+	</File>
+	<File name="pkgTextEngine.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="223" topLine="0" />
+	</File>
+	<File name="pkgTextEngine.h" open="0" top="0" tabpos="0">
+		<Cursor position="125" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

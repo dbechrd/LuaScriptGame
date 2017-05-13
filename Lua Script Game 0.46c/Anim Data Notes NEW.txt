@@ -1,0 +1,63 @@
+=========================================
+ANIMATION:
+
+   DELETED!
+
+=========================================
+TILE:
+
+   Native:
+      SDL_Rect rect
+      sprite
+      Tilesheet *tileSheet
+
+
+      X()
+
+      Y()
+
+      Sprite()
+      Set ..
+
+      CurrentFrame()
+      Set ..
+
+      Delay()
+      Set ..
+
+      AnimFlag()
+      Set ..
+
+      Update()
+
+      Draw()
+
+=========================================
+ANIMATION DATA:
+
+   Native:
+      startFrame
+      currentFrame
+      totalFrames
+      delay
+      animFlag
+
+
+      CurrentFrame()
+
+      NextFrame()
+
+      Delay()
+      Set ..
+
+      AnimFlag()
+      Set ..
+
+=========================================
+TILESHEET (No Relevant Animation Data):
+
+   Native:
+      tileFrames (for use with clipping)
+      vector<AnimationData*> animData
+
+=========================================

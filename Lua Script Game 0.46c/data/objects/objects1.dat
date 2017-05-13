@@ -1,0 +1,12 @@
+scripts\objects\objects1.lua
+10 32 32
+00 37 0 Green Apple
+01 38 0 Red Apple
+02 39 1 Blue Apple
+03 40 0 Yellow Apple
+04 41 0 Orange Apple
+05 42 1 BGSign
+06 43 1 Just A Sign
+07 -1 1 Test Object
+08 44 1 Closed Chest
+09 43 1 The Sign That Hates Ben

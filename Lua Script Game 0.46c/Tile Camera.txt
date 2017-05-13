@@ -1,0 +1,20 @@
+void Tile::show()
+{
+    //If the tile is on screen
+    if( check_collision( camera, box ) == true )
+    {
+        //Show the tile
+        apply_surface( box.x - camera.x, box.y - camera.y, tileSheet, screen, &clips[ type ] );
+    }
+} 
+
+OPPOSITE:
+
+Only call draw function of tiles in camera.
+
+xAdd = camera.x / tilew
+yAdd = camera.y / tileh
+
+for y = 0; y < levelh / tileh; y++
+for x = 0; x < levelw / tilew; x++
+map[x + xAdd][y + yAdd].draw

@@ -1,0 +1,8 @@
+Joe
+scripts\characters\joe.lua
+gfx\characters\joe.png
+16 32 4 16 32 32 1
+00 00 04 140 0
+01 04 04 140 0
+02 08 04 140 0
+03 12 04 140 0
